@@ -141,3 +141,143 @@
     background-color: #0065FF;
     border: none;
 }
+
+/* #Work Section  */
+#work{
+    padding: 100px 120px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+#work #text{
+   width:588px ;
+}
+#work #columns{
+    width: 588px;
+}
+#work #text h1{
+    font-size: var(--font-large);
+}
+#work #text p{
+    font-size: var(--font-small);
+    color: var(--white-low);
+    margin-block: 20px;
+}
+#work #text #square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#work #text #square .box{
+    width: 50%;
+    padding: 10px;
+}
+#work #text #square .box h2{
+    font-weight: 400;
+    font-size: var(--font-md);
+    color: var(--red);
+}
+#work #text #square .box p{
+    font-size: var(--font-small);
+    color: var(--white-low);
+}
+
+#work #columns .box{
+    padding: 10px;
+
+}
+#work #columns .box #text h3{
+    font-size: var(--font-small);
+    font-weight: 400;
+}
+#work #columns .box #text p{
+    color: var(--white-low);
+    font-size: var(--font-small);
+}
+#work #columns .box #content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#work #column .box #content {
+    background-color: green;
+}
+#work #column .box #content #text{
+    margin-left: 20px;
+    padding: 0.1px;
+}
+.box button{
+    width: 100%;
+    background-color: #0065FF;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 20px 40px;
+    font-size: var(--font-regular);
+}
+
+/* Support Section  */
+#support{
+    padding: 100px 120px;
+    text-align: center;
+    background: linear-gradient(#003E9C80, #933DFE99, #943DFF80);
+}
+#support h2{
+    font-size: var(--font-large);
+    font-weight: 500;
+    color: #fdfdfd;
+    margin-bottom: 10px;
+}
+#support p{
+    color: #A6A6A6;
+    font-size: var(--font-small);
+}
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+#services .service{
+    width: 238px;
+    height: 320px;
+    background-color: #0B0B0B;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+#services .service #circle{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1D3251;
+    border-radius: 100%;
+    height: 138px;
+    width: 138px;
+}
+#services .service #circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services .service #circle img{
+    width: 70%;
+    height: 70%;
+}
+#services .service #text{
+    position: absolute;
+    top: 30%;
+    padding: 0px 30px 39px 30px;
+}
+#services .service h3{
+    font-size: 24px;
+    color: #FDFDFD;
+    font-weight: 500;
+}
+#services .service p{
+    font-size: 12px;
+    color: #A6A6A6;
+}
